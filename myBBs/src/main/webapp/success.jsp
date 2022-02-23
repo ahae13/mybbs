@@ -8,6 +8,7 @@
 </head>
 <body>
 <h3>Success Regist!</h3>
-<a href="loginForm">로그인하기</a>
+<a href="loginForm">로그인하기</a>&nbsp;&nbsp;
+<a href="list">목록 보기</a>
 </body>
 </html>

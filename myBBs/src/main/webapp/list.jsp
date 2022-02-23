@@ -12,7 +12,7 @@
 <hr>
 <c:if test="${user ne null }" >
 <p>${user } 접속중 &nbsp;&nbsp; <a href="logout">로그아웃</a></p>
-<button name="btn_write">글쓰기</button><br>
+<button name="btn_write" onclick="moveWritePage()">글쓰기</button><br>
 </c:if>
 <c:if test="${user eq null }" >
 <p>guest 접속중  &nbsp;&nbsp; <a href="loginForm">로그인</a></p>
@@ -34,6 +34,10 @@
 	</c:forEach>
 	</tr>
 </table>
-
+<script>
+	function moveWritePage(){
+		location.href="write";
+	}
+</script>
 </body>
 </html>
